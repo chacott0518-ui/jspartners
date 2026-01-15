@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-export default App;
+import App from './App';  // 이 줄 추가!
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
